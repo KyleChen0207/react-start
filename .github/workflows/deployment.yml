@@ -1,12 +1,11 @@
 name: deployment
 
 on:
+
   push:
-    branches:
-      - main
-      - master
-    paths:
-      - 'src/*'
+    branches: [ main ]
+
+  workflow_dispatch:
 
 jobs:
   build:
