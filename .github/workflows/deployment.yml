@@ -2,11 +2,7 @@ name: deployment
 
 on:
   push:
-    branches:
-      [main]  
-    paths:
-      ['src/*'] 
-   
+    branches: [main]  
   workflow_dispatch:
 
 jobs:
